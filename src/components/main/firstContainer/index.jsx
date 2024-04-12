@@ -1,6 +1,8 @@
 import "./style.css";
 import Button from "../../../common/button/button";
 import { IMAGES } from "../../../assets/images";
+// import  Second  from "../secondContainer";
+
 
 const Main = () => {
   return (
@@ -16,6 +18,8 @@ const Main = () => {
       </div>
     </div>
   );
+//   <Second/>
+
 };
 
 export default Main;
