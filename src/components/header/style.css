@@ -1,0 +1,42 @@
+.headerBlock{
+    width:100wv;
+    height:110px;
+}
+.preHeader{
+
+    height: 40px;
+    background-color: #CFE1E7;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.preHeader ul{
+    width: 400px;
+    display: flex;
+    justify-content: space-around;
+}
+.preHeader ul li{
+    list-style: none;
+}
+.preHeader ul li a{
+    text-decoration: none;
+    color: black;
+}
+.basicHeader{
+    padding: 0 200px;
+}
+
+.basicHeader ul li a{
+    text-decoration: none;
+    color:black
+}
+.basicHeader ul li{
+    list-style: none;
+}
+.basicHeader ul{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 20px;
+}

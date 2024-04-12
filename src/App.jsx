@@ -1,10 +1,15 @@
-
+import Header from "./components/header";
+import Main from "./components/main/firstContainer";
+import Second from "./components/main/secondContainer";
 
 function App() {
   
   return (
     <div className="App">
-        <h1>hello j4</h1>
+        <Header />
+        <Main />
+        <Second />
+
     </div>
   );
 }

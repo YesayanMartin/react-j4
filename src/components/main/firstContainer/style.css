@@ -1,0 +1,27 @@
+.firstContainer{
+    width: 100wv;
+    height: 600px;
+    position: relative;
+}
+.firstContainer .firstImage{
+    width: 100%;
+}
+
+.firstContainer .textContainer{
+    width: 400px;
+    height: 100px;
+   top: 600px;
+   left: 160px;
+   position: absolute;
+   display: flex;
+   flex-direction: column;
+   justify-content: space-between;
+}
+.firstContainer .btn{
+    width:100%;
+    position:absolute;
+   top: 760px;
+   display: flex;
+   justify-content: space-around;
+
+}
